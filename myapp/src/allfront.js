@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { Modal } from 'react-bootstrap';
 import { Container, Row, Col, Button, Navbar, Nav,Card,Image,Offcanvas} from 'react-bootstrap';
 import { FaLinkedin, FaInstagram, FaTwitter, FaPinterest, FaDesktop } from 'react-icons/fa';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
@@ -22,6 +23,10 @@ import { Link } from "react-router-dom";
 
 
 const App = () => {
+   const [shows, setShows] = useState(false);
+
+  const handledClose = () => setShows(false);
+  const handledShow = () => setShows(true);
   const [bgColor, setBgColor] = useState('bg-blue-800'); // Initial background color
 
   // Array of colors to cycle through
@@ -586,18 +591,36 @@ const App = () => {
             Get Your Daily News About Phone Product and Send us Your Email to
             Contact Us and Get Information.
           </p>
-          <form className="space-y-4">
+        <form className="space-y-4">
             <input
               type="email"
               placeholder="Your Email Address"
               className="w-full p-2 rounded-md border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
-            <button
-              type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
-            >
-              Sign Up
-            </button>
+
+
+      <Button variant="primary" onClick={handledShow}>
+        Sign Up
+      </Button>
+
+      <Modal show={shows} onHide={handledClose}>
+        <Modal.Header closeButton>
+        <Modal.Title>
+  Successfully Sent <span style={{ fontSize: '35px' }}>&#128077;</span>
+</Modal.Title>
+
+        </Modal.Header>
+        <Modal.Body className="p-4">
+          <form className="space-y-4">
+            <p className="font-bold text-center">Email has been sent Get New Updates Soon.</p>
+
+            
+          </form>
+        </Modal.Body>
+        <Modal.Footer>
+          
+        </Modal.Footer>
+      </Modal>
           </form>
         </div>
 
