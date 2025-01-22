@@ -18,9 +18,9 @@ const App = () => {
     <Container fluid className="text-center" style={{ position: 'relative', zIndex: 1 }}>
       <Row className="justify-content-center">
         <Col md={8}>
-          <h1 className="display-4 fw-bold">PNY IT INSTITUTE</h1>
+          <h1 className="display-4 fw-bold pb-4""> IT INSTITUTE</h1>
           
-          <div className="d-flex justify-content-center gap-3">
+          <div className="d-flex justify-content-center gap-3" style={{paddingTop:'20px'}}>
          
           <Button variant="outline-light" size="lg"><Link to="/allfront">Learn More</Link></Button>
        
