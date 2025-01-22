@@ -20,7 +20,7 @@ const App = () => {
         <Col md={8}>
           <h1 className="display-4 fw-bold pb-4"">IT INSTITUTE</h1>
           
-          <div className="d-flex justify-content-center gap-3" style={{paddingTop:'20px'}}>
+          <div className="d-flex justify-content-center gap-5" style={{paddingTop:'20px'}}>
          
           <Button variant="outline-light" size="lg"><Link to="/allfront">Learn More</Link></Button>
        
