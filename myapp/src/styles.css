@@ -1,0 +1,15 @@
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* Ensures hover effect looks interactive */
+  }
+  
+  .hover-card:hover {
+    transform: translateY(-10px); /* Moves the card up slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds shadow */
+  }
+  
+  .card-link {
+    text-decoration: none; /* Removes underline from the link */
+    color: inherit; /* Inherits the text color */
+  }
+  

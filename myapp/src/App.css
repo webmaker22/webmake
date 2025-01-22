@@ -1,0 +1,46 @@
+.bg-light {
+    background-color: #f8f9fa !important;
+  }
+  .text-dark {
+    color: #343a40 !important;
+  }
+  
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  .hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .card.hover-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+    
+      
