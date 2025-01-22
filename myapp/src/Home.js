@@ -19,7 +19,7 @@ const App = () => {
       <Row className="justify-content-center">
         <Col md={8}>
           <h1 className="display-4 fw-bold">PNY IT INSTITUTE</h1>
-          <p className="lead fw-bold">FULL STACK WEB DEVELOPMENT</p>
+          
           <div className="d-flex justify-content-center gap-3">
          
           <Button variant="outline-light" size="lg"><Link to="/allfront">Learn More</Link></Button>
