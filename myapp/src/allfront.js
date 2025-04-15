@@ -144,7 +144,7 @@ const App = () => {
             <MdEmail /> websupport@justdial.com
           </Col>
           <Col md="auto" className="d-flex align-items-center gap-2">
-            <MdLocationOn /> Islamabad
+            <MdLocationOn /> Canada
             <span> | </span>
             <span><Link style={{color:'black'}} to="/Pages/login">Log In</Link></span> |   
                  
