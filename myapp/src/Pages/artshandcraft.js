@@ -294,7 +294,7 @@ const artshandcraft = () => {
               Programmers are mostly “learn by doing” types. No amount of academic study or watching other people code can compare to breaking open an editor and start making mistakes.
             </h1>
             <br></br>
-            <Button size="lg" style={{marginLeft:'1px',marginTop:'15px'}} gradientDuoTone="purpleToBlue">Learn more</Button>
+            <Button Link to="/Pages/Signup" size="lg" style={{marginLeft:'1px',marginTop:'15px'}} gradientDuoTone="purpleToBlue">Learn more</Button>
 
           </div>
         </Col>
