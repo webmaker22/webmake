@@ -1,16 +1,14 @@
-import React from 'react-bootstrap';
+import React from 'react-bootstrap'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import './App.css'
-
 
 
 const App = () => {
   return ( <div
     className="bg-dark text-white vh-100 d-flex align-items-center justify-content-center"
     style={{
-       backgroundImage:
- "url('https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Contemporary_Computer_Lab.jpg/1280px-Contemporary_Computer_Lab.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail')",
+      backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Contemporary_Computer_Lab.jpg/1024px-Contemporary_Computer_Lab.jpg.jpg')`, // Replace with your image URL
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       position: 'relative',
