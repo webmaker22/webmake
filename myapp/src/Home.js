@@ -2,14 +2,15 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import './App.css'
-import image01 from './01.jpg';
+
 
 
 const App = () => {
   return ( <div
     className="bg-dark text-white vh-100 d-flex align-items-center justify-content-center"
     style={{
-       backgroundImage: `url(${image01})`,
+       backgroundImage:
+ "url('https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Contemporary_Computer_Lab.jpg/1280px-Contemporary_Computer_Lab.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail')",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       position: 'relative',
