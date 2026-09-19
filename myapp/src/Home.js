@@ -2,13 +2,14 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import './App.css'
+import image01 from './01.jpg';
 
 
 const App = () => {
   return ( <div
     className="bg-dark text-white vh-100 d-flex align-items-center justify-content-center"
     style={{
-      backgroundImage: "url('/01.jpg')",
+       backgroundImage: `url(${image01})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       position: 'relative',
