@@ -8,7 +8,8 @@ const App = () => {
   return ( <div
     className="bg-dark text-white vh-100 d-flex align-items-center justify-content-center"
     style={{
-      backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Contemporary_Computer_Lab.jpg')`, // Replace with your image URL
+      backgroundImage:
+  "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1920&q=80')"
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       position: 'relative',
