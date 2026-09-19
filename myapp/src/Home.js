@@ -1,4 +1,4 @@
-import React from 'react-bootstrap'
+import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import './App.css'
@@ -9,7 +9,7 @@ const App = () => {
     className="bg-dark text-white vh-100 d-flex align-items-center justify-content-center"
     style={{
       backgroundImage:
-  "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1920&q=80')"
+  "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1920&q=80')",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       position: 'relative',
