@@ -9,11 +9,11 @@ const App = () => {
   className="bg-dark text-white vh-100 d-flex align-items-center justify-content-center"
   style={{
     backgroundImage:
-      'url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80")',
+  'url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     position: 'relative',
-    backgroundColor: 'rgba(0, 0, 0, 0.1)',
+    backgroundColor: 'ThreeDShadow'
   }}
 >
     <Container fluid className="text-center" style={{ position: 'relative', zIndex: 1 }}>
