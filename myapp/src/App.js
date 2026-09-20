@@ -1,6 +1,6 @@
 // App.js
 import React, { useEffect } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './Home';
 import Home2 from './allfront';
 import AboutUs from './Pages/aboutus';
