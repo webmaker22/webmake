@@ -2,7 +2,7 @@ import React from "react";
 import { Container,Row,Col } from "react-bootstrap";
 import { MdPhone, MdEmail } from 'react-icons/md';
 import { Link } from "react-router-dom";
-import { FaLinkedin, FaInstagram, FaTwitter, FaPinterest, FaDesktop } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaTwitter, FaPinterest } from 'react-icons/fa';
 import {
     faInstagram,
     faFacebook,
