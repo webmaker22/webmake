@@ -1,4 +1,5 @@
 import React from 'react-bootstrap'
+import computerLab from './computer-lab.jpg';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import './App.css'
@@ -8,7 +9,7 @@ const App = () => {
   return ( <div
     className="text-white vh-100 d-flex align-items-center justify-content-center"
     style={{
-      backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Contemporary_Computer_Lab.jpg/1024px-Contemporary_Computer_Lab.jpg.jpg')`, // Replace with your image URL
+      backgroundImage: `url(${computerLab})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       position: 'relative',
