@@ -13,7 +13,7 @@ const App = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     position: 'relative',
-    backgroundColor: 'ThreeDShadow'
+    backgroundColor: 'rgba(0, 0, 0, 0.1)',
   }}
 >
     <Container fluid className="text-center" style={{ position: 'relative', zIndex: 1 }}>
