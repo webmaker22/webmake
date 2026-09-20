@@ -6,15 +6,16 @@ import './App.css'
 
 const App = () => {
   return ( <div
-    className="bg-dark text-white vh-100 d-flex align-items-center justify-content-center"
-    style={{
-      backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Contemporary_Computer_Lab.jpg/1024px-Contemporary_Computer_Lab.jpg.jpg')`, // Replace with your image URL
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      position: 'relative',
-      backgroundColor: 'ThreeDShadow'
-    }}
-  >
+  className="bg-dark text-white vh-100 d-flex align-items-center justify-content-center"
+  style={{
+    backgroundImage:
+      'url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    position: 'relative',
+    backgroundColor: 'ThreeDShadow'
+  }}
+>
     <Container fluid className="text-center" style={{ position: 'relative', zIndex: 1 }}>
       <Row className="justify-content-center">
         <Col md={8}>
