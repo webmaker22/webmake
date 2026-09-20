@@ -12,9 +12,7 @@ const Home = () => {
         justifyContent: 'center',
       }}
     >
-      <h1 style={{ color: 'white', fontSize: '50px' }}>
-        IT INSTITUTE
-      </h1>
+      <h1 className="display-4 fw-bold pb-4">IT INSTITUTE - TEST 123</h1>
     </div>
   );
 };
