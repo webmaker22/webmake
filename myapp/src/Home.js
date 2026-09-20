@@ -1,4 +1,4 @@
-import React from 'react-bootstrap'
+import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import './App.css'
@@ -13,7 +13,8 @@ const App = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     position: 'relative',
-    backgroundColor: 'ThreeDShadow'
+    backgroundColor: 'ThreeDShadow',
+    overflow: 'hidden',
   }}
 >
     <Container fluid className="text-center" style={{ position: 'relative', zIndex: 1 }}>
